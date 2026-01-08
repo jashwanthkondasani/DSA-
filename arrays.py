@@ -53,13 +53,42 @@
 #         second_largest=arr[i]
 # print("second largest element is:",second_largest)
 
-arr=[12,34,67,97,64]
-largest=-1
-third_largest=-1
-for i in range(len(arr)):
-    if arr[i]>largest:
-        third_largest=largest
-        largest=arr[i]
-    elif arr[i]<largest and arr[i]>third_largest:
-        third_largest=arr[i]
-print("third largest element is:",third_largest)
+# arr=[12,34,67,97,64]
+# largest=-1
+# third_largest=-1
+# for i in range(len(arr)):
+#     if arr[i]>largest:
+#         third_largest=largest
+#         largest=arr[i]
+#     elif arr[i]<largest and arr[i]>third_largest:
+#         third_largest=arr[i]
+# print("third largest element is:",third_largest)
+
+
+# arr=[0,1,0,3,12,887,0]
+# index=0
+
+# for num in arr:
+#     if num !=0:
+#         arr[index]=num
+#         index +=1
+#     for i in range(index,len(arr)):
+#         arr[i]=0
+# print(arr)
+
+# arr=[1,2,3,4,5]
+# freq={}
+
+# for i in arr:
+#     freq[i]=freq.get(i,0)+1
+# print(freq)
+
+def is_sorted(arr):
+  return arr==sorted(arr)
+print(is_sorted([1,2,3,4,5]))
+print(is_sorted([5,4,3,2,1]))
+
+
+
+
+
