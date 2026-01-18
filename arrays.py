@@ -64,6 +64,19 @@
 #         third_largest=arr[i]
 # print("third largest element is:",third_largest)
 
+arr = [5, 3, 8, 2]
+key = 8
+
+found = False
+for i in range(len(arr)):
+    if arr[i] == key:
+        print("Found at index", i)
+        found = True
+        break
+
+if not found:
+    print("Not found")
+
 
 # arr=[0,1,0,3,12,887,0]
 # index=0
@@ -83,12 +96,42 @@
 #     freq[i]=freq.get(i,0)+1
 # print(freq)
 
-def is_sorted(arr):
-  return arr==sorted(arr)
-print(is_sorted([1,2,3,4,5]))
-print(is_sorted([5,4,3,2,1]))
+# def is_sorted(arr):
+#   return arr==sorted(arr)
+# print(is_sorted([1,2,3,4,5]))
+# print(is_sorted([5,4,3,2,1]))
+# arr = [1, 2, 3, 2, 4, 1, 5]
 
+# unique_arr = []
 
+# for i in arr:
+#     if i not in unique_arr:
+#         unique_arr.append(i)
 
+# print(unique_arr)
+
+# arr = [1, 2, 4, 5]
+# n = 5
+
+# total = n * (n + 1) // 2
+# print("Missing:", total - sum(arr))
+# arr = [1, 2, 4, 5]
+# n = 5
+
+# total = n * (n + 1) // 2
+# print("Missing:", total - sum(arr))
+
+arr = [5, 3, 8, 2]
+key = 8
+
+found = False
+for i in range(len(arr)):
+    if arr[i] == key:
+        print("Found at index", i)
+        found = True
+        break
+
+if not found:
+    print("Not found")
 
 
