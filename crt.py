@@ -96,16 +96,16 @@
 # print(rev)
 
 #  palindrome of a number 
-n=121213
-temp=0
-rev=0
+# n=121213
+# temp=0
+# rev=0
 
-while n>0:
-  digit=n%10
-  rev=rev*10+digit
-  n//=10
-if temp==rev:
-   print("it is an palindrome ")
-else:
-    print("it is not an palindrome")
+# while n>0:
+#   digit=n%10
+#   rev=rev*10+digit
+#   n//=10
+# if temp==rev:
+#    print("it is an palindrome ")
+# else:
+#     print("it is not an palindrome")
 
