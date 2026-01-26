@@ -21,6 +21,6 @@
 
 #         return maxi + mini
 
-print("Find the sum of minimum and maximum number in an array")
-       
-      
+# print("Find the sum of minimum and maximum number in an array")
+
+
