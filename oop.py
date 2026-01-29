@@ -41,6 +41,7 @@
 
 # e = Employee("Kiran", 30000)
 # print("Annual Salary:", e.annual_salary())
+
 # class Employee:
 #     def __init__(self, name, salary):
 #         self.name = name
@@ -51,6 +52,7 @@
 
 # e = Employee("Kiran", 30000)
 # print("Annual Salary:", e.annual_salary())
+print("hi ")
 class Student:
     def __init__(self, name, marks):
         self.name = name
@@ -66,3 +68,31 @@ s1 = Student("A", 85)
 s2 = Student("B", 80)
 
 s1.compare(s2)
+class Person:
+    def __init__(self):
+        self.__age = 0
+
+    def set_age(self, age):
+        if age >= 0:
+            self.__age = age
+        else:
+            print("Invalid age")
+
+    def get_age(self):
+        return self.__age
+
+p = Person()
+p.set_age(21)
+print(p.get_age())
+class ATM:
+    def __init__(self):
+        self.__pin = 1234
+
+    def validate_pin(self, pin):
+        if pin == self.__pin:
+            print("Access Granted")
+        else:
+            print("Wrong PIN")
+
+atm = ATM()
+atm.validate_pin(1234)
