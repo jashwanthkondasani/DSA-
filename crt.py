@@ -1,3 +1,4 @@
+from numpy import *
 # n=4
 # for i in range(1,n+1):
 #   for j in range(i):
@@ -109,3 +110,50 @@
 # else:
 #     print("it is not an palindrome")
 
+# x="jashwanth kumar reddy "
+# print(x.split("-"))
+# x='A-n-v--c-s-h'
+# print(x.split("-"))
+# x='Python Program'
+# print(x.split())
+# words=["python", "is", "easy"]
+# result="  ".join(words)
+# print(result)
+
+# words=["jash" , "csm" ,"svce"]
+# result="-".join(words)
+# print(result)
+
+# words=["jash" , "csm" ,"svce"]
+# result="\n".join(words)
+# print(result)
+# x='A-n-v--c-s-h'
+# print(x.split(  ))
+# n=4
+# for i in range(1,n+1):
+#    for j in range(1,i+1):
+#           print(j, end=' ')
+#    print()
+
+# for i in range(1,5):
+#   x=" ".join(str(j) for j in range(1, i+1))
+#   print(type(x))
+#   print(x)
+# matrix=[[1,2,3], [4,5,6]]
+# transpose=[]
+# for j in range(len(matrix[0])):
+#   row=[]
+#   for i in range(len(matrix)):
+#      row.append(matrix[i][j])
+#   transpose.append(row)
+#   print(transpose)
+# arr1=array([
+#          [4,1,3,6,2,9]
+#          [4,5,6,7,5,5]
+
+# ])
+# m=matrix(arr1)
+# print(memoryview)
+# rows, cols = (3, 5)
+# arr = [[0]*cols]*rows
+# print(arr)
