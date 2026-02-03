@@ -1,4 +1,4 @@
-from numpy import *
+# from numpy import *
 # n=4
 # for i in range(1,n+1):
 #   for j in range(i):
@@ -157,3 +157,103 @@ from numpy import *
 # rows, cols = (3, 5)
 # arr = [[0]*cols]*rows
 # print(arr)
+# def jash():
+#   print("jashwanth kumar reddy")
+#   jash()
+# def add(a,b):
+#     return a+b
+# print(add(2,3))
+# def evenOdd(x):
+#     if x % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+# evenOdd(4)
+# def add(a,b):
+#     print(a+b)
+# add(2,7)
+
+# def multiple(a,b):
+#     return a*b
+# print(multiple(33,77))
+# def student(name,age,section):
+#     print(name,age,section)
+# student("jashwanth",21,"csm")
+# def divide(a,b):
+#     return a/b
+# print(divide(100,10))
+# def maximum(a,b,c):
+#   if a>b and a>c:
+#       return a
+#   elif b>c:
+#       return b
+#   else:
+#      return c
+# print(maximum(119,32,875))
+# def minimum(a,b,c):
+#   if a<b and a<c:
+#       return a
+#   elif b<c:
+#       return b
+#   else:
+#       return c
+# print(minimum(19,32,8))
+# def leap_year(n):
+#     if (n%4==0 and n%100!=0) or (n%400==0):
+#         return True
+#     else:
+#         return False
+# print(leap_year(2026))
+# def simpleIntrest(p,r,t):
+#      return(p*r*t)/100
+# print(simpleIntrest(1000,43,2))
+# def perfectNum(n):
+#    total=0
+#    for i in range(1,n):
+#       if n%i==0:
+#          total+=i
+#       return total ==n
+# print(perfectNum(28))
+# def jash(*args):
+#     return args
+# print(jash(1,2,3,4,5,6,7,8,9))
+
+# def test(a,b):
+#     return a+b
+# t=test("s","v")
+# print(t)
+# def test(a,b):
+#     return a+b
+# t=test(3.3,76)
+# print(t)
+# def factorial(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact *=i
+#     return fact
+# print(factorial(5))
+# def greet(n):
+#     if n==0:
+#       return n
+#     print(" kondasani jashwanth kumar reddy ")
+#     greet(n-1)
+# greet(5)    
+
+# def jash(n):
+#   if n==0:
+#      return n
+#   print(n)
+#   jash(n-1)
+# jash(6)
+# def fibo(n):
+#     if n==0:
+#         return 0
+#     elif n==1:
+#         return 1
+#     else:
+#         return fibo(n-1) + fibo(n-2)
+# print(fibo(7))
+n=input()
+for i in range(n):
+  for j in range(i):
+    print("*",end=" ")
