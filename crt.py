@@ -253,7 +253,35 @@
 #     else:
 #         return fibo(n-1) + fibo(n-2)
 # print(fibo(7))
-n=input()
-for i in range(n):
-  for j in range(i):
-    print("*",end=" ")
+# n=input()
+# for i in range(n):
+#   for j in range(i):
+#     print("*",end=" ")
+# a=" "
+# if a:
+#   print("something ")
+# else:
+#   print("none")
+# a=[]
+# if a:
+#   print("something ")
+# else:
+#   print("none")
+# a=2
+# def jash():
+#   global a
+#   a=a+6
+#   print(a)
+# jash()
+# def sq(n):
+#   x=lambda n: n**2
+#   return x(n)
+# print(sq(5))
+# add = lambda a,b: a+b
+# print(add(3,7))
+# x=lambda a: a%2==0
+# print(x(4))
+# print(x(5))
+n=[1,2,3,4,5,6]
+x=map(lambda n: n%2==0,n)
+print(list(x))
