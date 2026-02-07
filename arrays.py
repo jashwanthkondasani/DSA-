@@ -121,17 +121,21 @@ if not found:
 # total = n * (n + 1) // 2
 # print("Missing:", total - sum(arr))
 
-arr = [5, 3, 8, 2]
-key = 8
+# arr = [5, 3, 8, 2]
+# key = 8
 
-found = False
-for i in range(len(arr)):
-    if arr[i] == key:
-        print("Found at index", i)
-        found = True
-        break
+# found = False
+# for i in range(len(arr)):
+#     if arr[i] == key:
+#         print("Found at index", i)
+#         found = True
+#         break
 
-if not found:
-    print("Not found")
+# if not found:
+#     print("Not found")
 
-
+mat=[[1,2,3],[4,5,6],[7,8,9]]
+for i in range(3):
+        for j in range(3):
+            print(mat[i][j])
+     
