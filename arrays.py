@@ -163,10 +163,10 @@ if not found:
 #     l+=1
 #     r-=1
 # print(arr)
-arr=[0,5,0,543,0,32]
-l=0
-for r in range(len(arr)):
-    if arr[r]!=0:
-        arr[l],arr[r]=arr[r],arr[l]
-        l+=1
-print(arr)
+# arr=[0,5,0,543,0,32]
+# l=0
+# for r in range(len(arr)):
+#     if arr[r]!=0:
+#         arr[l],arr[r]=arr[r],arr[l]
+#         l+=1
+# print(arr)
