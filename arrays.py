@@ -134,8 +134,39 @@ if not found:
 # if not found:
 #     print("Not found")
 
-mat=[[1,2,3],[4,5,6],[7,8,9]]
-for i in range(3):
-        for j in range(3):
-            print(mat[i][j])
+# mat=[[1,2,3],[4,5,6],[7,8,9]]
+# for i in range(3):
+#         for j in range(3):
+#             print(mat[i][j])
      
+# arr=[1,2,4]
+# print(arr)
+# for x in arr:
+#     print(x)
+# 
+# for i in range(len(arr)):
+
+#     print(arr[i])
+# arr.append(5)
+# arr=[1,2,3,4,5]
+# arr.append(6)
+# arr.insert(0,0)
+# arr.pop()
+# arr.remove(3)
+# arr.extend([7, 8, 9])
+# del arr[2]
+# print(arr)
+# arr=[1,2,3,4,5]
+# l,r=0,len(arr)-1
+# while l<r:
+#     arr[l],arr[r]=arr[r],arr[l]
+#     l+=1
+#     r-=1
+# print(arr)
+arr=[0,5,0,543,0,32]
+l=0
+for r in range(len(arr)):
+    if arr[r]!=0:
+        arr[l],arr[r]=arr[r],arr[l]
+        l+=1
+print(arr)
