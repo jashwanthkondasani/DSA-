@@ -1,5 +1,4 @@
-m=[1,2,3,0,0,0]
-n=[2,5,6]
+
 class solution(object):
   def merge(self,nums1,m,nums2,n):
     i,j= m-1, n-1
