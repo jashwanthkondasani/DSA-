@@ -307,8 +307,112 @@
 #     for j in range(i-1):
 #         print(j,end=' ')
 #     print()
-rows=5
-for i in range(rows+1,0,-1):
-  for j in range(0,i-1):
-      print("*",end=" ")
-  print()
+# rows=5
+# for i in range(rows+1,0,-1):
+#   for j in range(0,i-1):
+#       print("*",end=" ")
+#   print()
+# numbers=[1,2,3,4,5]
+# for i in numbers:
+#     square=i**2
+# print("square:",i, "is", square)
+# numbers=[1,2,3,4,5,6]
+# size=len(numbers)
+# for i in range(size):
+#   print("index:", i, "value:", numbers[i])
+
+
+# numbers=[11,23,34,55,66,77,85]
+# for i in numbers:
+#      if i >15:
+#           break
+#      else:
+#           print(i)
+# name="jashwanth kumar reddy"
+# count=0
+# for char in name:
+#     if char=="a":
+#         count+=1
+# print("count of a in name is:", count)
+# numbers=[1,2,34,55,6]
+# for i in numbers:
+#   pass
+# age=18
+# if age <18 and age==0:
+#   print("not eligible to vote")
+# else:
+#   print("eligible to vote")
+
+# marks=56
+# if marks>=90:
+#   print("a grade")
+# elif marks>=80:
+#   print("b grade")
+# elif marks>=70:
+#   print("c grade")
+# elif marks>=60:
+#   print(" d grade")
+# else:
+#   print("fail")
+
+# num=[1,2,3,4,5]
+# for i in num:
+#    if i %2==0:
+#     break
+# print(i)
+# num=[22,33,44,55,66]
+# for i in num:
+#   if i==33:
+#     continue
+
+#   print(i)
+# num=[22,33,44,55,66]
+# for i in num:
+#   if i==33:
+#     pass
+
+#   print(i)
+# for i in range(1,100):
+#   if i %5==0:
+#     pass
+#   print(i)
+# n=4
+# i=0
+# while i<n:
+#   print("jai sri ram")
+#   i+=1
+# marks = 92
+
+# if marks >= 90:
+#     if marks >= 95:
+#         print("S grade")
+#     else:
+#         print("A grade")
+# else:
+#     print("Just pass")
+
+#  loops in python 
+# for loop 
+# for i in range(1,4):
+#   print(i)
+# for i in range(1,30):
+#   if i%2==0:
+#     print("even number:" , i)
+#   else:
+#     print("odd number:" , i)
+# def multiplication_sum(num1,num2):
+#     product=num1*num2
+#     if product <=1000:
+#        return product
+#     else:
+#        return num1+num2
+# result=(multiplication_sum(20,830))  
+# print("the product is:",result)
+# result=(multiplication_sum(40,30))
+# print("the sum of numbers is:",result)
+# print("printing current and oprevious number sum for range in (10)")
+# previous_num=0
+# for i in range(10):
+#     sum=previous_num+i
+#     print(f"current number: {i} previous number: {previous_num} sum: {sum}")
+#     previous_num=i

@@ -17,4 +17,4 @@ class Solution:
             else:
                 total += roman[s[i]]
 
-        return total   # ✅ inside function
+        return total   
