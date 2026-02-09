@@ -282,6 +282,33 @@
 # x=lambda a: a%2==0
 # print(x(4))
 # print(x(5))
-n=[1,2,3,4,5,6]
-x=map(lambda n: n%2==0,n)
-print(list(x))
+# n=[1,2,3,4,5,6]
+# x=map(lambda n: n%2==0,n)
+# print(list(x))
+# n=input()
+# m=input()
+# for i in range(n):
+#   for j in range(m):
+#     print(f"{i} {j}",end=" ")
+#   print()
+# rows=7
+# num=143
+# for i in range(rows,0,-1):
+#     for j in range(0,i):
+#         print(num,end=" ")
+#     print('')
+# n=6
+# for i in range(n):
+#     for j in range(1,i+1):
+#         print(j,end=' ')
+#     print()
+# n=6
+# for i in range(1,n+1):
+#     for j in range(i-1):
+#         print(j,end=' ')
+#     print()
+rows=5
+for i in range(rows+1,0,-1):
+  for j in range(0,i-1):
+      print("*",end=" ")
+  print()
