@@ -52,47 +52,72 @@
 
 # e = Employee("Kiran", 30000)
 # print("Annual Salary:", e.annual_salary())
-print("hi ")
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
+# print("hi ")
+# class Student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
 
-    def compare(self, other):
-        if self.marks > other.marks:
-            print(self.name, "scored higher")
-        else:
-            print(other.name, "scored higher")
+#     def compare(self, other):
+#         if self.marks > other.marks:
+#             print(self.name, "scored higher")
+#         else:
+#             print(other.name, "scored higher")
 
-s1 = Student("A", 85)
-s2 = Student("B", 80)
+# s1 = Student("A", 85)
+# s2 = Student("B", 80)
 
-s1.compare(s2)
-class Person:
-    def __init__(self):
-        self.__age = 0
+# s1.compare(s2)
+# class Person:
+#     def __init__(self):
+#         self.__age = 0
 
-    def set_age(self, age):
-        if age >= 0:
-            self.__age = age
-        else:
-            print("Invalid age")
+#     def set_age(self, age):
+#         if age >= 0:
+#             self.__age = age
+#         else:
+#             print("Invalid age")
 
-    def get_age(self):
-        return self.__age
+#     def get_age(self):
+#         return self.__age
 
-p = Person()
-p.set_age(21)
-print(p.get_age())
-class ATM:
-    def __init__(self):
-        self.__pin = 1234
+# p = Person()
+# p.set_age(21)
+# print(p.get_age())
+# class ATM:
+#     def __init__(self):
+#         self.__pin = 1234
 
-    def validate_pin(self, pin):
-        if pin == self.__pin:
-            print("Access Granted")
-        else:
-            print("Wrong PIN")
+#     def validate_pin(self, pin):
+#         if pin == self.__pin:
+#             print("Access Granted")
+#         else:
+#             print("Wrong PIN")
 
-atm = ATM()
-atm.validate_pin(1234)
+# atm = ATM()
+# atm.validate_pin(1234)
+
+# class Vehicle:
+#   def __init__(self, make, model):
+#     self.make = make
+#     self.model = model
+
+#   def display_info(self):
+#     print("Vehicle Make:", self.make)
+#     print("Vehicle Model:", self.model)
+
+# v = Vehicle("Toyota", "fortuner ")
+# v.display_info()
+
+class Vehicle:
+  def __init__(self, name,max_speed, mileage):
+    self.max_speed = max_speed
+    self.mileage = mileage
+    self.name = name
+class Bus(Vehicle):
+  pass
+
+school_bus = Bus("School Bus", 80, 65)
+print("Bus Name:", school_bus.name)
+print("Bus Max Speed:", school_bus.max_speed)
+print("Bus Mileage:", school_bus.mileage)
