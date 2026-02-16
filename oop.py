@@ -109,15 +109,18 @@
 # v = Vehicle("Toyota", "fortuner ")
 # v.display_info()
 
-class Vehicle:
-  def __init__(self, name,max_speed, mileage):
-    self.max_speed = max_speed
-    self.mileage = mileage
-    self.name = name
-class Bus(Vehicle):
-  pass
+# class Vehicle:
+#   def __init__(self, name,max_speed, mileage):
+#     self.max_speed = max_speed
+#     self.mileage = mileage
+#     self.name = name
+# class Bus(Vehicle):
+#   pass
 
-school_bus = Bus("School Bus", 80, 65)
-print("Bus Name:", school_bus.name)
-print("Bus Max Speed:", school_bus.max_speed)
-print("Bus Mileage:", school_bus.mileage)
+# school_bus = Bus("School Bus", 80, 65)
+# print("Bus Name:", school_bus.name)
+# print("Bus Max Speed:", school_bus.max_speed)
+# print("Bus Mileage:", school_bus.mileage)
+
+
+
