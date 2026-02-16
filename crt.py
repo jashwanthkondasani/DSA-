@@ -416,3 +416,51 @@
 #     sum=previous_num+i
 #     print(f"current number: {i} previous number: {previous_num} sum: {sum}")
 #     previous_num=i
+# global_var = 10
+
+# def modify_global_var():
+#     global global_var
+#     global_var = 20
+#     print("Inside function:", global_var)
+
+# modify_global_var()
+# print("Outside function:", global_var)
+# m=int(input("Rows :-"))
+# n=int(input("Colums:-"))
+# for i in range(1,m+1):
+#   if(i %2==0):
+#     print(n* " -")
+#   else:
+#     print(n* " +")
+# j="jashwanth kumar reddy "
+
+# print(type(j))
+# n=  iam from madanapalli i am studying at sri venkateswara college of engineeringg tirupatho
+# print(j[9])
+# n="kondasani jashwanth kumar reddy"
+# print(n[0])
+# print(len(n))
+# for i in range(len(n)):
+#     print(n[i])
+
+#  string methods in python 
+n="jashwanth kumar reddy"
+# print(n.upper())
+# print(n.lower())
+# print(n.strip())
+# print(n.replace("jashwanth","kondasani"))
+# print(n.replace("jashwanth","kondasani"))
+# print(n.split())
+# print(n.capitalize())
+# print(n.center(50))
+# print(n.count("a"))
+# print(n.startswith("nani"))
+# print(n.endswith("reddy"))
+# print(n.find("kumar"))  
+# print(n.index("jash"))
+# print(n.swapcase())
+# print(n.isalpha())
+# print(n.isalnum())
+# print(n.isprintable())
+# print(ord('A'))
+# print(chr(65))
