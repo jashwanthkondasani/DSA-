@@ -444,7 +444,7 @@
 #     print(n[i])
 
 #  string methods in python 
-n="jashwanth kumar reddy"
+# n="jashwanth kumar reddy"
 # print(n.upper())
 # print(n.lower())
 # print(n.strip())
@@ -464,3 +464,9 @@ n="jashwanth kumar reddy"
 # print(n.isprintable())
 # print(ord('A'))
 # print(chr(65))
+
+# n=input("Enter a number to find its factorial: ")
+# fact=1
+# for i in range(1,n+1):
+#     fact*=i
+# print("Factorial:",fact)
