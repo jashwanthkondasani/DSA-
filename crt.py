@@ -470,11 +470,143 @@
 # for i in range(1,n+1):
 #     fact*=i
 # print("Factorial:",fact)
-arr=[1,2,3,4,5]
-left=0
-right=len(arr)-1
-while left<right:
-    arr[left],arr[right]=arr[right],arr[left]
-    left+=1
-    right-=1
-print("Reversed array:",arr)  
+# arr=[1,2,3,4,5]
+# left=0
+# right=len(arr)-1
+# while left<right:
+#     arr[left],arr[right]=arr[right],arr[left]
+#     left+=1
+#     right-=1
+# print("Reversed array:",arr)  
+# arr=[1,2,3,4,5]
+# # n=len(arr)
+# for i in range(0,n-1):
+#      print(i)year=int(input("Enter a year to check if it is a leap year: ")
+         
+
+#  27/02/2026
+# year=int(input("enter the year:-"))
+# if(year%4==0 and year%100!=0) or(year%400==0):
+#   print("it is a leap year")
+# else:
+#   print("not an leap year")
+
+# a=int(input("enter the  side of s triangle:-"))
+# b=int(input("enter the side of the triangle:-"))
+# c=int(input("enter the side of the triangle:-"))
+# if(a+b>c and a+c>b and b+c>a):
+#   print("it is a valid triangle")
+# if(a==b==c):
+#   print("it is an equliatoral triangle")
+# else:
+#   print("it is an scalar triangle")
+# Units consumed:
+# 	•	0–100 → ₹5 per unit
+# 	•	101–200 → ₹7 per unit
+# 	•	Above 200 → ₹10 per unit
+
+# Additionally:
+# 	•	If total bill > ₹2000 → add 10% surcharge
+
+# Print final bill.
+# bill=int(input("enter the total bill amount:-"))
+# if bill<100:
+#   print("the bill is:",bill*5)
+# elif bill<200:
+#   print("the bill is:",bill*7)
+# else:
+#   print("the bill is:",bill*10)
+# if bill>2000:
+#   print("the final bill is:",bill*1.1)
+
+
+#  largest and smalest of 4
+# a=int(input("enter the first number:-"))
+# b=int(input(" enter the second number:-"))
+# c=int(input(" enter the third number:-"))
+# d=int(input(" enter the fourth number:-"))
+# largest=a
+# smallest=a
+# if b>largest:
+#   largest=b
+# if c>largest:
+#   largest=c
+# if d>largest:
+#   largest=d
+# if b<smallest:
+#   smallest=b
+# if c<smallest:
+#   smallest=c
+# if d<smallest:
+#   smallest=d
+# print("largest number is:",largest)
+# print("smallest number is:",smallest)
+
+# age = int(input("Enter age: "))
+# is_weekend = input("Is it weekend? (yes/no): ").lower()
+# is_student = input("Are you a student? (yes/no): ").lower()
+
+# Base price
+# if age < 5:
+#     price = 0
+# elif age <= 18:
+#     price = 100
+# elif age <= 60:
+#     price = 200
+# else:
+#     price = 150
+
+# # Weekend charge
+# if is_weekend == "yes":
+#     price += 50
+
+# # Student discount
+# if is_student == "yes":
+#     price -= price * 0.10
+
+# print("Final Ticket Price:", price)
+
+# Input:
+# 	•	Age
+# 	•	Salary
+# 	•	Credit Score (300–900)
+# 	•	Existing Loan? (yes/no)
+
+# Rules:
+# 	1.	Age must be between 21 and 60
+# 	2.	Salary ≥ 25,000
+# 	3.	Credit Score:
+# 	•	≥ 750 → Excellent
+# 	•	650–749 → Good
+# 	•	600–649 → Average
+# 	•	< 600 → Poor
+
+# Loan Decision:
+# 	•	Excellent → Approved
+# 	•	Good → Approved only if no existing loan
+# 	•	Average → Approved only if salary ≥ 50,000 AND no existing loan
+# 	•	Poor → Rejected
+
+age=int(input("Enter age: "))
+salary=int(input("Enter salary: "))
+credit_score=int(input("Enter credit score (300-900): "))
+existing_loan=input("Do you have an existing loan? (yes/no): ").lower()
+if age < 21 or age > 60:
+    print("Loan Rejected: Age criteria not met.")
+
+elif salary < 25000:
+    print("Loan Rejected: Salary criteria not met.")
+elif credit_score < 300 or credit_score > 900:
+    print("Loan Rejected: Credit score must be between 300 and 900.")
+elif existing_loan == "yes":
+    print("Loan Rejected: Existing loan found.")
+else:
+    print("Loan Approved.")
+    if credit_score >= 750:
+        print("Credit Score: Excellent")
+    elif credit_score >= 650:
+        print("Credit Score: Good")
+    elif credit_score >= 600:
+        print("Credit Score: Average")
+    else:
+        print("Credit Score: Poor")
