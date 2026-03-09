@@ -587,26 +587,39 @@
 # 	•	Average → Approved only if salary ≥ 50,000 AND no existing loan
 # 	•	Poor → Rejected
 
-age=int(input("Enter age: "))
-salary=int(input("Enter salary: "))
-credit_score=int(input("Enter credit score (300-900): "))
-existing_loan=input("Do you have an existing loan? (yes/no): ").lower()
-if age < 21 or age > 60:
-    print("Loan Rejected: Age criteria not met.")
+# age=int(input("Enter age: "))
+# salary=int(input("Enter salary: "))
+# credit_score=int(input("Enter credit score (300-900): "))
+# existing_loan=input("Do you have an existing loan? (yes/no): ").lower()
+# if age < 21 or age > 60:
+#     print("Loan Rejected: Age criteria not met.")
 
-elif salary < 25000:
-    print("Loan Rejected: Salary criteria not met.")
-elif credit_score < 300 or credit_score > 900:
-    print("Loan Rejected: Credit score must be between 300 and 900.")
-elif existing_loan == "yes":
-    print("Loan Rejected: Existing loan found.")
-else:
-    print("Loan Approved.")
-    if credit_score >= 750:
-        print("Credit Score: Excellent")
-    elif credit_score >= 650:
-        print("Credit Score: Good")
-    elif credit_score >= 600:
-        print("Credit Score: Average")
-    else:
-        print("Credit Score: Poor")
+# elif salary < 25000:
+#     print("Loan Rejected: Salary criteria not met.")
+# elif credit_score < 300 or credit_score > 900:
+#     print("Loan Rejected: Credit score must be between 300 and 900.")
+# elif existing_loan == "yes":
+#     print("Loan Rejected: Existing loan found.")
+# else:
+#     print("Loan Approved.")
+#     if credit_score >= 750:
+#         print("Credit Score: Excellent")
+#     elif credit_score >= 650:
+#         print("Credit Score: Good")
+#     elif credit_score >= 600:
+#         print("Credit Score: Average")
+#     else:
+#         print("Credit Score: Poor")
+
+# n=int(input("enter the number of elements in the array:-"))
+# arr=map(int,input().split())
+# arr=list(arr)
+# arr.sort()
+# print(arr[-2])
+# a=[1,2,3,4,5,5,7,7,7,7,7]
+# a.count(1)
+def fact(n):
+  if n==0:
+    return 1
+  return n*fact(n-1)
+print("factorial of 5 is:",fact(5))
