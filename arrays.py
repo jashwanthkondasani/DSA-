@@ -170,3 +170,45 @@ if not found:
 #         arr[l],arr[r]=arr[r],arr[l]
 #         l+=1
 # print(arr)
+
+# arr=[0,4,5,0,3,4]
+# count=0
+# for i in range(len(arr)):
+#     if arr[i]==0:
+#         count+=1
+
+# class Solution():
+#     def largestElement(self,nums):
+#         maxi=nums[0]
+#         for i in nums:
+#             if i>maxi:
+#                 maxi=i
+#         return maxi
+# s=Solution()
+# print(s.largestElement([3,3,6,1,333,445,6]))
+
+# class solution():
+#     def moveZeroes(self,nums):
+#         l=0
+#         # r=len(nums)-1
+#         for r in range(len(nums)):
+#             if nums[r]!=0:
+#                 if l!=r:
+#                    nums[l],nums[r]=nums[r],nums[l]
+#                 l+=1
+#         return nums
+# s=solution()
+# print(s.moveZeroes([0,1,0,3,12]))
+
+#  remove duplicates
+class solution():
+    def removeDuplicates(self,nums):
+        if len(nums)==0:
+            return 0
+        i=0
+
+        for j in range(1,len(nums)):
+            if nums[j]!=nums[i]:
+                i+=1
+                nums[i]=nums[j]
+        return i
