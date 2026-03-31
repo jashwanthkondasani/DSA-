@@ -618,8 +618,275 @@
 # print(arr[-2])
 # a=[1,2,3,4,5,5,7,7,7,7,7]
 # a.count(1)
-def fact(n):
-  if n==0:
-    return 1
-  return n*fact(n-1)
-print("factorial of 5 is:",fact(5))
+# def fact(n):
+#   if n==0:
+#     return 1
+#   return n*fact(n-1)
+# print("factorial of 5 is:",fact(5))
+# n=5
+# for i in range(1,n):
+#   for j in range(1,i+1):
+#     print("*",end=" ")
+#   print()
+
+# n=5
+# for i in range(n,0,-1):
+#   for j in range(1,i+1):
+#     print("*",end=" ")
+#   print()
+
+# n=5
+# for i in range(1,n+1):
+#   for j in range(1,i+1):
+#     print(j,end=" ")
+#   print()
+# n=5
+# for i in range(n,0,-1):
+#   for j in range(1,i+1):
+#     print(j,end=" ")
+#   print()
+# n=5
+# for i in range(n,0,-1):
+#   for j in range(0,i+1):
+#     print(j,end=" ")
+#   print()
+# n=5
+# for i in range(0,n+1):
+#   for j in range(0,i+1):
+#     print(j,end=" ")
+#   print()
+# n=5
+# b=0
+# for i in range(n,0,-1):
+#   b+=1
+#   for j in range(1,i+1):
+#     print(b,end=" ")
+#   print()
+# n=5
+# for i in range(n+1):
+#   for j in range(i):
+#     print(i,end=" ")
+#   print()
+# n=5
+# for i in range(n+1,0,-1):
+#   for j in range(i):
+#     print(i,end=" ")
+#   print()
+# n=5
+# b=0
+# for i in range(n,0,-1):
+#   b+=1
+#   for j in range(1,i+1):
+#     print(b,end=" ")
+#   print()
+# n=5
+# r=n
+# for i in range(n,0,-1):
+#   for j in range(0,i):
+#     print(r,end=" ")
+#   print()n=5
+# n=5
+# for i in range(n,0,-1):
+#   for j in range(0,i):
+#     print(i,end=" ")
+#   print()
+# n=5
+# for i in range(1,n+1):
+#   for j in range(0,i*1):
+#     print(j+1,end=" ")
+#   print()
+
+
+# n=5
+# k=2*n-2
+# for i in range(n):
+#   for j in range(k):
+#     print(" ", end="")
+#   k -= 1
+#   for j in range(0, i + 1):
+#     print("* ", end="")
+#   print()
+
+# k=n-2
+
+# for j in range(n-2,-1,-1):
+#   for i in range(k):
+#       print(" ",end="")
+
+#   k+=1
+#   for i in range(i+1):
+#       print("* ",end="")
+#   print()
+rows = 5
+
+# Upper part
+# k = 2 * rows - 2
+# for i in range(rows):
+#     for j in range(k):
+#         print("  ", end="")
+#     k -= 1
+#     for j in range(i + 1):
+#         print("* ", end="")
+#     print()
+
+# # Lower part (FIXED)
+# k = rows - 2azv`c   ?zxcw9p;/?ruhb gv. tf4`
+# for i in range(rows - 2, -1, -1):   # important fix
+#     for j in range(k):
+#         print(" ", end="")
+#     k += 1
+#     for j in range(i + 1):
+#         print("* ", end="")
+#     print()
+
+# def nani():
+#   print("jai sri ram")
+# nani()
+# def add(a,b):
+#   # return a+b
+#   return a-b
+# print(add(3,7))
+
+# def cal(a,b):
+#   a=add(a,b)
+#   b=sum(a,b)
+#   return a,b
+# print(cal(10,5))
+# def name(name,age):
+#   print("Name:",name)
+#   print("Age:",age)
+# name("jashwanth",21)
+
+# def add(*numbers):
+#     total=0
+#     for n in numbers:
+#         total+=n
+#     return total
+# print(add(1,2,3,4,5))
+
+# def sum(n):
+#   total=0
+#   for i in range(1,n+1):
+#     total+=i
+#   return total
+# print(sum(5))
+
+
+# def palinddrome(s):
+#   left=0
+#   right=len(s)-1
+#   while left<right:
+#     if s[left]!=s[right]:
+#       return False
+#     left+=1
+#     right-=1
+#   return True
+# print(palinddrome("kondasani nani "))
+
+
+# 31/03/2026
+#  function practices
+# 1
+# def start():
+#   print("jai sri ram")
+# start()
+# 2
+# def add(a, b):
+#   return a + b
+# print(add(3, 7))
+# def add(a=3,b=4):
+#   return a+b
+# print(add())
+# def add(a,b):
+#   add=a+b
+#   return add
+# print(add(55,66))
+
+# def avg(a,b,c):
+#   avg=(a+b+c)/3
+#   return avg
+# print(avg(10,20,30))
+
+# def list(nums):
+#   return sum(nums)/len(nums)
+# print(list([1,2,3,4,5]))
+
+# 3
+# def calc(a,b):
+#   return a+b, (a+b)/2, [a,b]
+# print(calc(10,20))
+# def cal(a,b):
+#   add=a+b
+#   sub=a-b
+#   mul=a*b
+#   div=a/b
+#   return add,sub,mul,div
+# print(cal(10,5))
+# def sqr(n):
+#   return n*n
+# print(sqr(5))
+# def sqr(n):
+#   return n*(n+1)/2
+# print(sqr(5))
+# 4
+# def check(n):
+#   if n%2==0:
+#     print("even")
+#   else:
+#     print("odd")
+# check(4)
+# def fact(n):
+#   if n==0:
+#     return 1
+#   else:
+#     return n*fact(n-1)
+# print(fact(5))
+# def count(n):
+#   c=0
+#   for i in str(n):
+#     c+=1
+#   return c
+# print(count(12345))
+# def rev_num(n):
+
+#     rev=0
+#     while n!=0:
+#         rev=rev*10+n%10
+#         n=n//10
+#     return rev
+# print(rev_num(12345))
+
+
+# n=int(input("enter the number:-"))
+# rev=0
+# temp=n
+# while n>0:
+#   rev=rev*10+n%10
+#   n=n//10
+# if temp==rev:
+#   print("palindrome")
+# else:
+#   print("not a palindrome ")
+# def palindrome(n):
+#   rev=0
+#   temp=n
+#   while n>0:
+#     rev=rev*10+n%10
+#     n=n//10
+#   return temp==rev
+# print(palindrome(1431))
+
+# def largest(numbers):
+#   max_num=numbers[0]
+#   for num in numbers:
+#     if max_num<num:
+#       max_num=num
+#   return max_num
+# print(largest([1,2,3,4,5,6,7,8,9,10]))
+def smallest(numbers):
+  min_num=numbers[0]
+  for num in numbers:
+    if min_num>num:
+      min_num=num
+  return min_num
+print(smallest([1,2,3,4,5,6,7,8,9,10]))

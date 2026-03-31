@@ -30,8 +30,8 @@
 #     return 1
 #   return n*fact(n-1)
 # print(fact(3)
-def converter(usd_value):
-  inr_value=usd_value*82.74
-  print(f"{usd_value} USD is equal to {inr_value} INR")
-converter(100)
+# def converter(usd_value):
+#   inr_value=usd_value*82.74
+#   print(f"{usd_value} USD is equal to {inr_value} INR")
+# converter(100)
 # print(converter(100)  )
