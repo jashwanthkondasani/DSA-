@@ -201,14 +201,14 @@ if not found:
 # print(s.moveZeroes([0,1,0,3,12]))
 
 #  remove duplicates
-class solution():
-    def removeDuplicates(self,nums):
-        if len(nums)==0:
-            return 0
-        i=0
+# class solution():
+#     def removeDuplicates(self,nums):
+#         if len(nums)==0:
+#             return 0
+#         i=0
 
-        for j in range(1,len(nums)):
-            if nums[j]!=nums[i]:
-                i+=1
-                nums[i]=nums[j]
-        return i
+#         for j in range(1,len(nums)):
+#             if nums[j]!=nums[i]:
+#                 i+=1
+#                 nums[i]=nums[j]
+#         return i
