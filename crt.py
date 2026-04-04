@@ -890,3 +890,17 @@ def smallest(numbers):
       min_num=num
   return min_num
 print(smallest([1,2,3,4,5,6,7,8,9,10]))
+
+
+def test(n):
+     if n%2==0:
+          return "Even"
+     else:
+          return "Odd"
+print(test(10))
+def fact(n):
+  if n==0:
+    return 1
+  else:
+    return n*fact(n-1)
+print(fact(5))
